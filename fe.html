@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Demo</title>
+</head>
+<body>
+<h1> Square</h1>
+    <form>
+      <label for="areaSquare">Side Length: </label>
+      <input id="areaSquare"> 
+         <input type="submit" value="Submit">
+      <br>
+
+      <label for="answerAreaSquare">Area: </label>
+      <output id="answerAreaSquare"></output> <br>
+   
+      <br>
+
+      <label for="answerAreasq">Perimeter: </label>
+      <output id="answerAreasq"></output> <br>
+
+    </form>
+ <script>
+(function () {
+  function areaSquare(event) {
+    var side = document.getElementById("areaSquare").value;
+    var answer = side*side;
+    document.getElementById("answerAreaSquare").value = answer;
+    event.preventDefault();
+  }
+  document.querySelector('form').addEventListener('submit', areaSquare);
+})();
+  </script>
+  <script>
+(function () {
+  function areaSquare(event) {
+    var side = document.getElementById("areaSquare").value;
+    var answer = side*4;
+    document.getElementById("answerAreasq").value = answer;
+    event.preventDefault();
+  }
+  document.querySelector('form').addEventListener('submit', areaSquare);
+})();
+  </script>
+
+</body>
+</html>

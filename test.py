@@ -1,4 +1,4 @@
-
+a=1212
 #!/usr/bin/python
 import cgitb
 cgitb.enable()

@@ -16,7 +16,7 @@ top:0;
 left:0;
 text-align:left;
 height:40px;
-background-color:black;
+background-color:#063d11;
 }
 
 ul{
@@ -47,7 +47,7 @@ font-size:30px;
 .current{
 flex-grow:1;
 text-align:center;
-background-image:url("https://sciexaminer.com/wp-content/uploads/2017/02/maths.jpg");
+background-image:linear-gradient(to bottom right,#e23b09,#3f058c);
 background-size:100%;
 background-position:center;
 height:500px;
